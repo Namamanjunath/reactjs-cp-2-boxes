@@ -1,12 +1,12 @@
-const Box = (props) => {
-  const { text, className } = props;
-
+const Box = props => {
+  const {text, className} = props
+  
   return (
     <div className={`box ${className}`}>
       <p className="box-title">{text}</p>
     </div>
-  );
-};
+  )
+}
 
 const element = (
   <div className="boxes-app-container">
@@ -17,6 +17,6 @@ const element = (
       <Box text="Large" className="large-box" />
     </div>
   </div>
-);
+)
 
-ReactDOM.render(element, document.getElementById("root"));
+ReactDOM.render(element, document.getElementById('root'))

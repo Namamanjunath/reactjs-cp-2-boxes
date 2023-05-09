@@ -16,7 +16,7 @@ body {
 
 .heading {
   color: #0f172a;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 48px;
   font-weight: 700;
 }
@@ -134,7 +134,7 @@ body {
 
 .box-title {
   color: #ffffff;
-  font-family: "Bree Serif";
+  font-family: 'Bree Serif';
   font-size: 18px;
 }
 
